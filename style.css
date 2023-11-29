@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+h3{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+#title{
+    min-height: 80vh;
+    width:100%;
+    background: linear-gradient(180deg, #6495ED 0%, rgba(144, 182, 251, 0.75) 100%);;
+}
+.container-fluid{
+    padding: 3% 10% 8%;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-right: 0px;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.nav-link::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:black;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.left-side{
+    margin: 100px 0 0 40px;
+    color: white;
+}
+.hello{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+}
+.right-side img{
+    margin: 50px 0 0 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#about{
+    min-height: 75vh;
+    padding: 50px 10% 2%;
+}
+#about .card{
+    width: 90%;
+    margin-top: 40px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    transition: 0.3s all;
+}
+#about .card p{
+    margin-left: 10px;
+}
+#about .card:hover{
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: scale(1.05);
+}
+#education{
+    padding: 50px 10% 2%;
+    min-height: 75vh;
+    background: linear-gradient(180deg, #6495ED 0%, rgba(144, 182, 251, 0.65) 0%, rgba(144, 182, 251, 0.44) 100%);
+}
+/* #education .container{
+    width: 70%;
+} */
+#education img{
+    width: 260px;
+    height: 260px;
+}
+#skills{
+    min-height: 75vh;
+    padding: 50px 10% 2%;
+}
+.col{
+    height: 300px;
+}
+.intermediate{
+    margin-left: 80px;
+}
+.basic{
+    margin-left: 80px;
+}
+.interests{
+    margin: 50px 0 0 80px;
+}
+#skills p{
+    margin-left: 10px;
+}
+#contact{
+    background: linear-gradient(180deg, rgba(144, 182, 251, 0.65) 0%, #6495ED 0%, #6495ED 100%);
+    padding-top: 50px
+}
+#contact .card{
+    min-width: 40%;
+    height: 200px;
+    border-radius: 7px;
+}
+#contact .container-fluid{
+    display: flex;
+    justify-content: center;
+}
